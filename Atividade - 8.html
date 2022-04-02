@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  </title>
+<link rel="stylesheet" type="text/css" href="responsivo.css">
+<meta charset="UTF-8">
+</head>
+<body>
+    <body>
+        <script>
+             var numero1 =parseInt(prompt("insira o 1º número"))
+             var numero2 =parseInt(prompt("insira o 2º número"))
+             var numero3 =parseInt(prompt("insira o 3º número"))
+             var numero4 =parseInt(prompt("insira o 4º número"))
+        
+             
+             if(numero1 > 0 && numero1 < 10) {
+            if(numero2 > 0 && numero2 < 10) {
+                if(numero3 > 0 && numero3 < 10) {
+                    if(numero4 > 0 && numero4 < 10) {
+                        var media = (numero1 + numero2 + numero3 + numero4) / 4 
+                        document.write("A média é: " + media + "<br>")
+
+                        if(media >= 5)
+                            document.write("aprovado")
+                        else
+                            document.write("Tente novamente")
+
+                    } else
+                        document.write("Tente novamente")
+                } else
+                    document.write("Tente novamente")
+            } else
+                document.write("Tente novamente")
+        } else
+            document.write("Tente novamente")
+
+        </script>
+        
+    
+    
+    </body>
+
+</body>
+</html>
